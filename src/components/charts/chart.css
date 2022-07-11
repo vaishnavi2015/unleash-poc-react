@@ -1,0 +1,339 @@
+.chart{
+    margin: 20px;
+    width: 96.3%;
+    /* padding: 20px; */
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.piChart{
+    margin: 0px 20px;
+    padding-left: 22px;
+    /* margin-right: 20px; */
+    -webkit-box-shadow: -1px 1px 15px 5px lightgray; 
+    box-shadow: -1px 1px 15px 5px lightgray;
+    flex:1;
+    border-radius: 10px;
+}
+
+.lineChart{
+    /* margin: 0px 20px; */
+    /* padding: 30px; */
+    -webkit-box-shadow: -1px 1px 15px 5px lightgray; 
+    box-shadow: -1px 1px 15px 5px lightgray;
+    flex:2;
+    border-radius: 10px;
+    /* background-color: lightblue; */
+}
+
+.creditCardAccount{
+    /* margin: 0px 20px; */
+    /* padding: 30px; */
+    -webkit-box-shadow: -1px 1px 15px 5px lightgray; 
+    box-shadow: -1px 1px 15px 5px lightgray;
+    /* flex:3; */
+    /* border-radius: 10px; */
+    /* background-color: lightblue; */
+}
+
+.creditCardAccountPane{
+    display: flex;
+}
+
+.creditCardAccountLeftPane{
+    flex:2
+}
+
+.creditCardAccountRightPane{
+    flex:1
+}
+
+.accountNumberSortCode{
+    font-size: 16px;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accountCurrentBalanceText{
+    font-size: 16px;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+
+.creditCardTitle{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.creditCardTitleText{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.creditCardTitleAmount{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.chartTitle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.accountRemainingAlllowance{
+    width: 95%;
+    border:1px solid darkgray;
+    padding: 15px;
+    padding-left: 0px;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+}
+
+.accountRemainingAlllowanceText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.mortgageTitle{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mortgageTitleText{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mortgageTitleAmount{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.mortgageAccount{
+    margin-top: 20px;
+    /* margin: 0px 20px; */
+    /* padding: 30px; */
+    -webkit-box-shadow: -1px 1px 15px 5px lightgray; 
+    box-shadow: -1px 1px 15px 5px lightgray;
+    /* flex:3; */
+    /* border-radius: 10px; */
+    /* background-color: lightblue; */
+}
+
+.mortgageAccountPane{
+    display: flex;
+}
+
+.mortgageAccountLeftPane{
+    flex:2
+}
+
+.mortgageAccountRightPane{
+    flex:1
+}
+
+.mortgageRemainingAlllowance{
+    width: 95%;
+    padding: 15px;
+    padding-left: 0px;
+    border-top: 1px solid darkgray;
+    margin-top: 20px;
+}
+
+.mortgageRemainingAlllowanceText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.personalLoanOffer{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    /* border-top: 4px solid #006A4D; */
+    /* margin: 0px 20px; */
+    /* padding: 30px; */
+    -webkit-box-shadow: -1px 1px 15px 5px lightgray; 
+    box-shadow: -1px 1px 15px 5px lightgray;
+    /* flex:3; */
+    /* border-radius: 10px; */
+    /* background-color: lightblue; */
+}
+
+.loanAccount{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.loanAccountPane{
+    display: flex;
+}
+
+.loanTitleText{
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+    width: 97%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.loanDerivatives{
+    color: black;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+h2 {
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  h2 span {
+    background-color: white;
+    padding-right: 10px;
+  }
+  
+  h2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 0.5em;
+    border-top: 1px solid black;
+    z-index: -1;
+  }
+
+.loanDerivativesLine{
+    border-bottom: 2px solid lightgray;
+}
+.loanDerivativesValue{
+    color: black;
+}
+
+.c-decorated-header {
+    position: relative;
+    margin-top: 20px;
+}
+  
+  .c-decorated-header h3 {
+    position: relative;
+    /* color: #7B8291; */
+    text-align: left;
+  }
+  
+  .c-decorated-header h3:after {
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: 10%;
+    /* left: 20%; */
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* background: #e2e2e6; */
+    border-bottom: 2px solid lightgray;
+  }
+
+  .loanFeature1 h3:after{
+    left: 20%;
+  }
+  
+  .loanFeature2 h3:after{
+    left: 14%;
+  }
+
+  .loanFeature3 h3:after{
+    left: 12%;
+  }
+
+  .loanFeature4 h3:after{
+    left: 20%;
+  }
+
+  .loanFeature5 h3:after{
+    left: 17%;
+  }
+
+  .loanFeature6 h3:after{
+    left: 27%;
+  }
+
+  .c-decorated-header h3 span {
+    position: relative;
+    font-size: 1.0em;
+    color: #333;
+    font-weight: 400;
+    font-stretch: normal;
+    /* background: #f5f4f4; */
+  }
+  
+  .c-decorated-header_link-view-more {
+    position: absolute;
+    top: -5px;
+    right: 40px;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+    background: white;
+    padding: 5px;
+  }
+
+.loanLeftPane{
+    flex:8
+}
+
+.loanRightPane{
+    flex:2
+}
+
+.loanApplyNowButton{
+    color: white;
+    width: 85%;
+    height: 20%;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.loanApplyTailorYourLoanButton{
+    color: white;
+    width: 85%;
+    height: 20%;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 20px;
+    background-color: #6b777c;
+}
+.findoutMore{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.findoutMoreText{
+    flex:2;
+    margin-left: 20px;
+}
+
+.findoutMoreIcon{
+    flex:1;
+    float: left;
+}
+
+.loanDialog{
+    border: 1px solid lightgray;
+    width: 91.5%;
+    padding: 15px;
+    margin: 20px;
+    font-size: 0.9em;
+    background-color: #f0f0f0;
+}

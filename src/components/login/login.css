@@ -1,0 +1,127 @@
+.parentContainer{
+    /* margin-top: 50px; */
+    border: 4rem;
+    background-color: #006A4D;
+}
+
+.topLeft{
+    padding-left: 20px;
+   
+}
+
+.headerContainer{
+    background-color: white;
+}
+
+.loginContainer{
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 120px;
+    /* border: 1rem; */
+    /* border-radius: calc(); */
+    /* background-color: #006A4D; */
+    /* z-index:999; */
+}
+
+.anotherContainer{
+    justify-content: center;
+}
+
+.usernameForm{
+    margin-left: 30px;
+    text-align:left;
+}
+
+.passwordForm{
+    margin-left: 30px;
+    text-align:left;
+}
+
+.footer{
+    height:200px;
+    background-color: #006A4D;
+    z-index: -999;
+}
+.loginButton{
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: #006A4D;
+    border-radius: 15px;
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.credential{
+    height: 400px;
+    width: 350px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* -webkit-box-shadow: -1px 1px 15px 5px lightgray; 
+    box-shadow: -1px 1px 15px 5px lightgray; */
+    border-radius: 10px;
+    justify-content: center;
+    background-color: white;
+    padding-top: 30px;
+
+}
+
+.username{
+    width: 300px;
+    display: flex;
+    height: 40px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    margin-top: 10px;
+    
+}
+
+.username>input{
+    display: flex;
+    width: 300px;
+    height: 40px;
+}
+
+.password{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.password>input{
+    display: flex;
+    width: 300px;
+    height: 40px;
+}
+
+.forgotPassword{
+    text-align: center;
+    margin-top: 20px;
+    color: #006A4D;
+}
+
+.loginText{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control{
+    display: block;
+    width: 84%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}

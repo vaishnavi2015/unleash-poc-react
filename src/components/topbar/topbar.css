@@ -1,0 +1,198 @@
+.topbar{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topRight{
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-weight: bold;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.topbarIconContainer{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    /* color:#555; */
+    color: white
+}
+.topIconBadge{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.topAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.topBarMenuList{
+    background-color: black;
+    width: 250px;
+    border-top:2px solid white;
+}
+.topbarProfileUser{
+    display: flex;
+    flex-direction: column;
+    margin-top: -7px;
+    /* background-color: #006A4D; */
+    align-items: center;
+}
+.topbarProfileUsername {
+    height: 70px;
+    float: bottom;
+    /* background-color: #006A4D; */
+    color: white;
+    flex:1;
+    margin-bottom: 10px;
+}
+.topbarMenuItem{
+    color: white;
+    font-size: 13px;
+}
+.tobarProfileMenu{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    flex:1;
+    transform: scale(2.0);
+}
+.logoutButton{
+    width: 220px;
+    height: 40px;
+    color: white;
+    /* background-color: #006A4D; */
+    border-radius: 15px;
+    font-weight: 400;
+    margin-top: 40px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+.logoutButtonText{
+    margin-top: 0px;
+    align-items: left;
+    align-content: flex-start;
+}
+.logoutButtonMenu{
+    align-content: flex-end;
+    margin-left: 60px;
+    transform: scale(0.8);
+}
+.yourContactDetails{
+    color: white;
+    background-color: black;
+    align-items: left;
+    margin-left: 38px;
+    margin-top: 10px;
+    font-size: 13px;
+    /* margin-bottom: 5px; */
+}
+
+.topbarMenuItemAddress{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.topbarMenuItemAddressMenu{
+    /* font-size: 13px; */
+    flex: 4;
+}
+.topbarMenuItemAddressText{
+    width:100%;
+    margin-left: -5px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    box-sizing:border-box;
+    /* max-width: 50px; */
+}
+.topbarMenuItemAddressEdit{
+    flex: 1;
+    color: white;
+    transform: scale(0.8);
+    /* background-color: #006A4D; */
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px white;
+}
+.topbarLocationAddressIcon{
+    /* flex: 1; */
+    transform: scale(0.8);
+}
+.topbarLocationAddressIconText{
+    font-size: 14px;
+    /* width: 50px; */
+    margin-left: 10px;
+    word-wrap: break-word;
+    max-width: 150px;
+    /* hyphens: auto; */
+    /* text-align: left; */
+    /* display: flex; */
+    /* flex: 1; */
+}
+
+.topbarLocationAddressIconText {
+    min-width: 40%;
+}
+
+.parent{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    padding:1em;
+    background-color:red;
+    box-sizing:border-box;
+  }
+  .child1{
+    background-color:mistyrose;
+    padding:1em;
+  }
+  
+  .child2{
+    background-color:powderblue;
+    padding:.5em;
+    word-wrap:break-word;
+    /* max-width:40px; */
+  }
+  .child3{
+    background-color:powderblue;
+    padding:.5em;
+    word-wrap:break-word;
+  }
+
+  .child2, .child3 {
+    min-width: 40%;
+  }
